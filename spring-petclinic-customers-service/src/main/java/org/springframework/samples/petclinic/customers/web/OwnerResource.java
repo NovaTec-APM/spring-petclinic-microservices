@@ -51,7 +51,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 class OwnerResource {
 
-    private final OwnerRepository ownerRepository = null;
+    private final OwnerRepository ownerRepository;
 
     private final ExecutorService executor = Executors.newCachedThreadPool();
 
